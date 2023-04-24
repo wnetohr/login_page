@@ -9,7 +9,7 @@ body *{
 .main-login{
     width: 100vw;
     height: 100vh;
-    background: #d588f3;
+    background: #153c80;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ body *{
 }
 .left-login > h1 {
     font-size: 3vw;
-    color: rgb(17, 41, 148);
+    color: rgb(173, 187, 248);
 }
 .gif-login{
     width: 30vw;
@@ -37,7 +37,7 @@ body *{
     align-items: center;
 }
 .card-login > h1 {
-    color:  rgb(255, 255, 255);
+    color:  rgb(173, 187, 248);
     font-weight: 800;
     margin: 0;
 }
@@ -48,9 +48,9 @@ body *{
     justify-content: center;
     align-items: center;
     padding: 35px 30px;
-    background:rgb(229, 97, 247);
+    background:rgb(11, 31, 84);
     border-radius: 20px;
-    box-shadow: 0px 10px 40px rgb(92, 91, 91);
+    box-shadow: 0px 10px 40px rgb(27, 28, 51);
 }
 .textfield{
     margin: 15px 0px;
@@ -64,12 +64,12 @@ body *{
     width: 100%;
     border: none;
     border-radius: 5px;
-    background: rgb(230, 3, 218);
-    color: white;
+    background: rgb(22, 68, 194);
+    color: rgb(244, 244, 248);
     font-size: 15;
     padding: 10px;
     outline: none;
-    box-shadow: 0px 10px 40px rgb(92, 91, 91);
+    box-shadow: 0px 10px 40px rgb(27, 28, 51);
     box-sizing: border-box;
 }
 .textfield >label{
@@ -85,13 +85,14 @@ color: white;
     margin: 25px;
     border: none;
     border-radius: 10px;
-    background: rgb(248, 14, 248);
+    background: rgb(22, 68, 194);
     color: white;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 500;
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: large;
     cursor: pointer;
-    box-shadow: 0px 10px 40px rgb(90, 51, 84);
+    box-shadow: 0px 10px 40px rgb(27, 28, 51);
 }
 @media only screen and (max-width:600px){
     .main-login{
